@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApplicationSettingsDialog", "SampleApplicationSettingsDialog\SampleApplicationSettingsDialog.csproj", "{8A55ADA2-4E15-41A0-83B0-B07B36BFCFDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A55ADA2-4E15-41A0-83B0-B07B36BFCFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A55ADA2-4E15-41A0-83B0-B07B36BFCFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A55ADA2-4E15-41A0-83B0-B07B36BFCFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A55ADA2-4E15-41A0-83B0-B07B36BFCFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD2F6972-6383-4CCA-A1D7-44CFB398E325}
+	EndGlobalSection
+EndGlobal
