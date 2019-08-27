@@ -20,7 +20,7 @@ namespace SampleApplicationSettingsDialog
         /// <summary>
         /// オブジェクトのディープコピーを作成する
         /// </summary>
-        public static T deepCopy<T>(T src)
+        private static T deepCopy<T>(T src)
         {
             using (var memoryStream = new System.IO.MemoryStream())
             {
