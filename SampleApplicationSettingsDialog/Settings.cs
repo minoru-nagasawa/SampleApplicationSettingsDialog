@@ -49,7 +49,7 @@ namespace SampleApplicationSettingsDialog.Properties
                 Attribute attribute;
                 if (attributeTable.TryGetValue(p.Name, out attribute))
                 {
-                    // 属性にDescriptionAttributeを追加する。
+                    // 属性を追加する。
                     // 本当はMemberDescriptor.Attributes.Addのようにしたいのだが、Attributes属性はgetだけ定義されている。
                     // そのためリフレクションを使って属性を追加する
                     var fi = p.Attributes.GetType().GetField("_attributes", BindingFlags.NonPublic | BindingFlags.Instance);
